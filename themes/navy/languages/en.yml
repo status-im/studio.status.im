@@ -1,0 +1,23 @@
+menu:
+  docs: Docs
+  plugins: Plugins
+  themes: Themes
+  search: Search
+  blog: Blog
+  tutorials: Tutorials
+
+index:
+  get_started: Get started
+
+page:
+  contents: Contents
+  back_to_top: Back to Top
+  improve: Improve this doc
+  prev: Prev
+  next: Next
+  last_updated: "Last updated: %s"
+
+sidebar:
+  docs:
+    Incubate: Incubate
+    introduction: What Is Status Incubate?
