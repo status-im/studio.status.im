@@ -1,12 +1,12 @@
-title: Nimbus
-subtitle: "Light clients for everyone!"
-description: "Nimbus is a research project and a client implementation for Ethereum 2.0 designed to perform well on embedded systems and personal mobile devices, including older smartphones with resource-restricted hardware."
-author: Nimbus
+title: Studio
+subtitle: "Education and IDEs for everyone!"
+description: "Status Studio is a Integrated Developer Environment and Education Platform that addresses pain points in the community with goal to grow the Ethereum ecosystem and foster one-stop-shop development and learning."
+author: Status Studio
 language: en
 timezone: UTC
 
-url: https://studio.status.im/
-root: /
+url: https://status-im.github.io
+root: /studio.status.im/
 permalink: news/:year/:month/:day/:title/
 archive_dir: news
 code_dir: downloads/code
