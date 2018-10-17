@@ -1,135 +1,109 @@
 <div class="home-cover">
      {{ partial('partial/header') }}
+    <div class="site-specific-menu">
+        <p>
+            <span class="site-name">studio</span>
+            <a class="specific-nav-link" href=""><span>About</span></a>
+            <a class="specific-nav-link" href=""><span>Contribute</span></a>
+            <a class="specific-nav-link" href=""><span>Blog</span></a>
+            <a class="specific-nav-link" href=""><span>Join our team</span></a>
+        </p>
+    </div>
     <div class="intro">
-        <h1>The Tools You Need To Buidl And Learn More</h1>
-        <p>Status Studio is a Integrated Developer Environment and Education Platform that addresses pain points in the community with goal to grow the Ethereum ecosystem and foster one-stop-shop development and learning.</p>
+        <h1>An Integrated Developer Environment and Education Platform</h1>
+        <p>Status Studio is designed to become a one-stop-shop for DApp development and education. We’ve listened to the needs of developers in the Ethereum ecosystem and we’re working to alleviate your pain points.</p>
         <div class="intro-buttons">
-            <a class="button button--main" href="/docs/">LEARN MORE</a>
+            <a class="button button--main" href="/docs/">JOIN THE CONVERSATION</a>
         </div>
     </div>
 </div>
 <div class="home-wrap">
-    <div class="section-header section-header--main">
-        <h2 id="top-header">Build a Better Web Together</h2>
-        <p>We catalyze early-stage startups looking to reinvent the Web. By offering funding, office space, professional services, as well as technical mentorship to our incubatees, our mission is to find the most ambitious projects in the Web3 ecosystem
+    <div class="header">
+        <h2>The Problem</h2>
+        <p>Comprehensive EthPrize interviews and extensive research has allowed us to understand your bottlenecks and needs as an Ethereum developer. This data demonstrated a need for educational content and an IDE. See all the EthPrize results
         </p> 
-        <div class="work-items">
-            <div class="work-item">
-                <div class="work-item-inner">
-                    <h2>Technical Mentorship</h2>
-                    <p>Having spent the last few years building the protocols we'll all need for web3, we can provide unique access to experienced engineers to advise you on best practices nd help improve your code.
-                    </p>
-                    <a href="https://github.com/status-im/nimbus">See docs <img src="../img/arrow_orange.svg" /></a>
-                </div>
-                <img class="work-item-image" src="../img/graphic-research.svg" />
+    </div>
+    <div class="problem-wrap">
+        <img class="ethprize-logo" src="../img/logo-ethprize.svg" />
+        <div class="problem">
+            <img class="problem-image" src="../img/logo-ethereum.svg" />
+            <p class="problem-quote">I need detailed traces of exactly what happened in every opcode of this transaction.</p>
+            <p class="problem-attribution">- Martin Swende, Ethereum Foundation</p>
+        </div>
+        <div class="problem">
+            <img class="problem-image" src="../img/logo-consensys.svg" />
+            <p class="problem-quote">I would love a super seamless cross-platform client that has a great block explorer in it.</p>
+            <p class="problem-attribution">- Goncalo Sa, ConsenSys</p>
+        </div>
+        <div class="problem">
+            <img class="problem-image" src="../img/logo-aragon.svg" />
+            <p class="problem-quote">There's a lot of friction, both internally and externally, so we have this goal to simplify it all.</p>
+            <p class="problem-attribution">- Brett Sun, Aragon</p>
+        </div>
+    </div>
+    <div class="vision-wrap">
+        <div class="vision-image">
+            <img src="../img/vision-img.svg" />
+        </div>
+        <div class="vision-text">
+            <h2>The Vision</h2>
+            <p>Create a community-owned, one-stop-shop for Ethereum development and education.  We would achieve this by combining the tools and educational resources needed to help any web3 developer create and deploy their own DApp.</p>
+        </div>
+    </div>
+    <div class="solution-wrap">
+        <h2>The Solution</h2>
+        <div class="solution">
+            <img class="solutions-img" src="../img/icon-ide.svg" />
+            <h3>An Integrated Development Environment</h3>
+            <p class="solutions-text">Write efficient, accurate code and identify issues as they appear. Develop, fix bugs, and complete testing within your IDE. </p>
+            <div class="solution-features">
+                <p><img src="../img/green-tick.svg">Debugger</p>
             </div>
-            <div class="work-item">
-                <img class="work-item-image work-item-image-right" src="../img/graphic-licensing.svg" />
-                <div class="work-item-inner">
-                    <h2>Business Development</h2>
-                    <p>With some of the leading business minds behind Incubate, we can provide you with unique insights and leverage our market position to help seed your web3 business dreams
-                    </p>
-                    <a href="https://github.com/status-im/nimbus">Get In Touch! <img src="../img/arrow_orange.svg" /></a>
-                </div>
+            <div class="solution-features">
+                <p><img src="../img/green-tick.svg">Tutorials / Courses</p>
             </div>
-            <div class="work-item">
-                <div class="work-item-inner">
-                    <h2>Communications and Community Support</h2>
-                    <p>We’ve learnt some valuable lessons over the last few years when it comes to building community and producing the right kind of communications when buidling web3 products adn services and can pass all that experience onto your fledgling startup.
-                    </p>
-                    <a href="https://github.com/status-im/nimbus">See docs <img src="../img/arrow_orange.svg" /></a>
-                </div>
-                <img class="work-item-image" src="../img/graphic-network.svg" />
+            <div class="solution-features">
+                <p><img src="../img/green-tick.svg">Text / code editor</p>
             </div>
-            <div class="work-item">
-                <img class="work-item-image work-item-image-right" src="../img/graphic-platform-support.svg" />
-                <div class="work-item-inner">
-                    <h2>Legal and Regulatory Support</h2>
-                    <p>Experience, assisstance and all the rest...
-                    </p>
-                    <a href="https://github.com/status-im/nimbus">See docs <img src="../img/arrow_orange.svg" /></a>
-                </div>
-            </div>
+        </div>
+        <div class="solution">
+            <img class="solutions-img" src="../img/icon-chat.svg" />
+            <h3>A Community-Powered Educational Platform</h3>
+            <p class="solutions-text">Open-source resources make learning and collaboration easy. Gain proficiency, share your knowledge and find the answers you need through our educational platform.</p>
         </div>
     </div>
     <div class="sections">
         <div class="inner-header">
-            <h2>Contribute</h2>
-            <p>Status Studio is an open source initiative in which anyone can get involved. There are a number of ways to contribute:</p>
+            <h2>Contribute to Status</h2>
+            <p>While we have a number of exciting projects on the go, we’re still just getting started. There are a number of ways in which you can get involved and contribute to the creation of Status Studio.</p>
         </div>
         <div class="contribute-wrap">
             <div class="contribute">
                 <h3>Join the Team</h3>
-                <p>We are always looking for passionate and talented individuals to join our team.
+                <p>Status Studio is growing fast. Take a look at this list of open roles.
                 <p>
-                    <a href="https://status.im/open-positions.html">See list of open roles</a>
-                    <span><a href="https://status.im/open-positions.html"><img src="../img/arrow_ogn.png" /></a></span>
-            </div>
-            <div class="contribute">
-                <h3>Work on Bounties</h3>
-                <p>As an open source project, anyone anywhere can get involved and contribute code.
-                <p>
-                    <a href="https://gitcoin.co/explorer?keywords=nimbus&order_by=-web3_created">See open bounties</a>
-                    <span><a href="https://gitcoin.co/explorer?keywords=nimbus&order_by=-web3_created"><img src="../img/arrow_ogn.png" /></a></span>
+                    <a href="https://status.im/open-positions.html">See our open roles</a>
+                    <span><a href="https://status.im/open-positions.html"><img src="../img/arrow_green.svg" /></a></span>
             </div>
             <div class="contribute">
                 <h3>Join the Conversation</h3>
-                <p>We are an open community and happy to answer your questions and help you learn more about Nimbus.
+                <p>We’re an open community and share all our ideas in public forums. Join the conversation and contribute your ideas today.
                 <p>
-                    <a href="https://get.status.im/chat/public/nimbus">Join us in Status</a>
-                    <span><a href="https://get.status.im/chat/public/nimbus"><img src="../img/arrow_ogn.png" /></a></span>
-            </div>
-        </div>
-        <div class="inner-header">
-            <h2>Core Contributors</h2>
-            <p>We’re a diverse group of business specialists, smart contract programmers, and product managers with a passion for web3 technologies.</p>
-        </div>
-        <div class="contribute-wrap">
-            <div class="contribute">
-                <img class="contributor" src="../img/ellipse.png" />
-                <h3>Akshi Federici</h3>
-                <p>Lead</p>
-                <p><a href="https://github.com/">See LinkedIn profile</a>
-                    <span><a href="https://linkedin.com/"><img src="../img/arrow_ogn.png" /></a></span>
-                </p>
+                    <a href="https://get.status.im/chat/public/status-studio">Join the conversation</a>
+                    <span><a href="https://get.status.im/chat/public/status-studio"><img src="../img/arrow_green.svg" /></a></span>
             </div>
             <div class="contribute">
-                <img class="contributor" src="../img/ellipse.png" />
-                <h3>Philip Wu</h3>
-                <p>UXR</p>
-                <p><a href="https://github.com/">See LinkedIn profile</a>
-                    <span><a href="https://linkedin.com/"><img src="../img/arrow_ogn.png" /></a></span>
-                </p>
-            </div>
-            <div class="contribute">
-                <img class="contributor" src="../img/ellipse.png" />
-                <h3>You</h3>
-                <p>Smart Contract Engineer</p>
-                <p><a href="https://github.com/">See Github profile</a>
-                    <span><a href="https://github.com/"><img src="../img/arrow_ogn.png" /></a></span>
-                </p>
+                <h3>Give Us Your Feedback</h3>
+                <p>Whether you’re an expert web3 developer or just starting out with Ethereum, give us your input and help shape the MVP. 
+                <p>
+                    <a href="#">Fill out the form</a>
+                    <span><a href="#"><img src="../img/arrow_green.svg" /></a></span>
             </div>
         </div>
-        <div class="inner-header">
-            <h2>Read our Blog</h2>
-            <p>Check out the latest Studio news and blog posts:</p>
-        </div>
-        <div class="contribute-wrap">
-            <div class="contribute blog">
-                <h3></h3>
-                <p></p>
-                <a href="#">Read More <img src="../img/arrow_ogn.png" /></a>
-            </div>
-            <div class="contribute blog">
-                <h3></h3>
-                <p></p>
-                <a href="#">Read More <img src="../img/arrow_ogn.png" /></a>
-            </div>
-            <div class="contribute blog">
-                <h3></h3>
-                <p></p>
-                <a href="#">Read More <img src="../img/arrow_ogn.png" /></a>
-            </div>
-        </div>
+        <div class="volunteer-wrap">
+            <h2>Volunteer for a User Research Interview</h2>
+            <p>Sign up for an in-depth interview with one of our UX Researchers. Complete this sign up form to get started.</p>
+            <a href="#">SIGN UP FOR INTERVIEW</a>
+    </div>
     </div>
 </div>

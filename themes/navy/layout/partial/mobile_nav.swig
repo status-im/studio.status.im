@@ -4,7 +4,7 @@
     <div class="mobile-menu-header">
       <div class="logo-wrap">
           <span class="logo-span"><a class="logo" href="/"></a></span>
-          <span class="logo-span"><a class="logo-text" href="/">incubate</a></span>
+          <span class="logo-span"><a class="logo-text" href="/">status</a></span>
       </div>
       <a href="#" class="close">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
