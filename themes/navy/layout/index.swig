@@ -60,6 +60,13 @@
             <img class="solutions-img" src="../img/icon-ide.svg" />
             <h3>An Integrated Development Environment</h3>
             <p class="solutions-text">Write efficient, accurate code and identify issues as they appear. Develop, fix bugs, and complete testing within your IDE. </p>
+        </div>
+        <div class="solution">
+            <img class="solutions-img" src="../img/icon-chat.svg" />
+            <h3>A Community-Powered Educational Platform</h3>
+            <p class="solutions-text">Open-source resources make learning and collaboration easy. Gain proficiency, share your knowledge and find the answers you need through our educational platform.</p>
+        </div>
+        <div class="sol-features">
             <div class="solution-features">
                 <p><img src="../img/green-tick.svg">Debugger</p>
             </div>
@@ -69,11 +76,6 @@
             <div class="solution-features">
                 <p><img src="../img/green-tick.svg">Text / code editor</p>
             </div>
-        </div>
-        <div class="solution">
-            <img class="solutions-img" src="../img/icon-chat.svg" />
-            <h3>A Community-Powered Educational Platform</h3>
-            <p class="solutions-text">Open-source resources make learning and collaboration easy. Gain proficiency, share your knowledge and find the answers you need through our educational platform.</p>
         </div>
     </div>
     <div class="sections">
