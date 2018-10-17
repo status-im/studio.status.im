@@ -26,7 +26,7 @@
     <div class="problem-wrap">
         <img class="ethprize-logo" src="../img/logo-ethprize.svg" />
         <div class="problem">
-            <img class="problem-image" src="../img/logo-ethereum.svg" />
+            <img class="problem-image first-problem-img" src="../img/logo-ethereum.svg" />
             <p class="problem-quote">I need detailed traces of exactly what happened in every opcode of this transaction.</p>
             <p class="problem-attribution">- Martin Swende, Ethereum Foundation</p>
         </div>
@@ -42,6 +42,10 @@
         </div>
     </div>
     <div class="vision-wrap">
+        <div class="vision-text-mobile">
+            <h2>The Vision</h2>
+            <p>Create a community-owned, one-stop-shop for Ethereum development and education.  We would achieve this by combining the tools and educational resources needed to help any web3 developer create and deploy their own DApp.</p>
+        </div>
         <div class="vision-image">
             <img src="../img/vision-img.svg" />
         </div>

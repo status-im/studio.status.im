@@ -215,13 +215,8 @@ body
           background-repeat: no-repeat
           transition: all 0.3s ease-in-out
           @media screen and (max-width: break-xl)
-            width: 44px
-            height: 44px
-        span
-          margin-left: 10px
-          transition: all 0.3s ease-in-out
-          @media screen and (max-width: break-xl)
-            font-size: 22px
+            width: 138px
+            height: 52px
     nav
       @media screen and (max-width: break-xl)
         display: none
@@ -368,8 +363,8 @@ body
           transition: all 0.3s ease-in-out
           &:before
             content: ''
-            width: 44px
-            height: 44px
+            width: 138px
+            height: 52px
             display: block
             background-image: url("../img/logo-status.svg")
             background-size: cover
@@ -1165,152 +1160,7 @@ footer
       flex: 0 0 16.666667%;
       max-width: 16.666667%;
 
-footer 
-  .blog-logo
-    height: auto;
-    display: flex;
-    font-family: 'GT Walsheim', sans-serif;
-    a
-      display: flex;
-      align-items: center;
-      &:hover
-        color: #5EC12F;
-      span
-        line-height: 1;
-        font-size: 26px;
-        text-transform: lowercase;
-        font-weight: bold;
-        margin-left: 10px;
 
-footer a{
-  color: #fff;
-}
-
-footer p{
-  margin-top: auto;
-  margin-bottom: 0;
-  line-height: 26px;
-  font-size: 16px;
-}
-
-footer h3{
-  margin-top: 0;
-  margin-bottom: 30px;
-  padding: 0;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 24px;
-  font-size: 16px;
-}
-
-footer ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-footer ul li{
-  margin-bottom: 24px;
-}
-
-footer ul li a:hover{
-  opacity: .6;
-  color: #fff;
-}
-
-footer ul.community li a{
-  position: relative;
-  padding-left: 48px;
-}
-
-footer ul.community li a:before,
-footer ul.community li a:after{
-  content: '';
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  background: #FFFFFF;
-  opacity: 0.1;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-}
-
-footer ul.community li a:after{
-  opacity: 1;
-  background-color: transparent;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-footer ul.community li a.footer-facebook:after{
-  background-image: url(../img/icon_fb2.svg);
-}
-
-footer ul.community li a.footer-twitter:after{
-  background-image: url(../img/icon_tw2.svg);
-}
-
-footer ul.community li a.footer-riot:after{
-  background-image: url(../img/icon_ri.svg);
-}
-
-footer ul.community li a.footer-github:after{
-  background-image: url(../img/icon_gh2.svg);
-}
-
-footer ul.community li a.footer-reddit:after{
-  background-image: url(../img/icon_rd2.svg);
-}
-
-footer ul.community li a.footer-youtube:after{
-  background-image: url(../img/icon_yt.svg);
-}
-
-footer .project h4{
-  margin: 0 0 10px 0;
-  padding: 0;
-}
-
-footer .project p{
-  margin: 0 0 30px 0;
-  max-width: 220px;
-  line-height: 20px;
-  font-size: 14px;
-}
-
-footer .copyright{
-  margin-top: 30px;
-}
-
-footer .copyright p{
-  margin: 20px 0;
-  font-size: 14px;
-  line-height: 20px;
-}
-
-footer .share{
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
-
-footer .share a{
-  width: 60px;
-  height: 60px;
-  font-size: 22px;
-  margin: 0 10px;
-}
-
-footer input[type="email"]{
-  border: 3px solid #ffffff;
-  background: #eff0f1;
-}
 
 @media (max-width: 991px)
   .section-header
@@ -1424,7 +1274,7 @@ footer input[type="email"]{
   border: 1px solid rgba(0, 0, 0, 0.1)
   box-sizing: border-box
   border-radius: 10px
-  display: flex
+  display: block
   align-self: center
   text-align: center
 
@@ -1432,10 +1282,9 @@ footer input[type="email"]{
   max-width: 400px
   width: 33%
   float: left
+  margin-top: 100px
   p
     padding: 20px
-  img
-    padding-top: 100px
 
 .problem-quote
   color: #000
@@ -1461,16 +1310,18 @@ footer input[type="email"]{
   max-width: 1000px
   width: 100%
   box-sizing: border-box
-  display: flex
+  display: block
   align-self: center
   text-align: left
   margin-top: 145px
 
 .vision-image 
   width: 50%
+  float: left
 
 .vision-text
   width: 50%
+  float: left
   h2
     font-size: 25px
     font-weight: bold
@@ -1556,6 +1407,38 @@ footer input[type="email"]{
       background-color: #5EC12F
       color: #fff
 
+.vision-text-mobile
+  display: none
 
+@media (max-width: 459px)
+  .site-specific-menu
+    span
+      padding-right: 10px
+  .problem
+    width: 100%
+    margin-top: 0
+  .first-problem-img
+    margin-top: 100px
+  .vision-wrap
+    margin-top: 50px
+  .vision-image
+    width: 100%
+  .vision-text
+    display: none
+  .vision-text-mobile
+    display: block
+    width: 100%
+    text-align: center
+    margin-bottom: 40px
+    h2
+      color: #000
+      font-size: 25px
+      font-weight: bold
+      margin-bottom: 12px
+    p
+      font-size: 16px
+      color: #939BA1
+  .volunteer-wrap
+    margin: 70px auto 35px auto
 
     
