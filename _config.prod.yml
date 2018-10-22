@@ -19,7 +19,7 @@ deploy:
   type: git
   branch: gh-pages
   name: status-im-auto
-  repo: git@github.com:status-im/incubate.status.im.git
+  repo: git@github.com:status-im/studio.status.im.git
 
 theme_config:
     favicon: img/logo-32.png
