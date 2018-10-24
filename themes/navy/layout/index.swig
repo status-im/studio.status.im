@@ -10,7 +10,7 @@
         <h1>An Integrated Development Environment and Education Platform</h1>
         <p>Status Studio is designed to become a one-stop-shop for DApp development and education. We’ve listened to the needs of developers in the Ethereum ecosystem and we’re working to alleviate your pain points.</p>
         <div class="intro-buttons">
-            <a class="button button--main" href="/docs/">JOIN THE CONVERSATION</a>
+            <a class="button button--main" href="https://get.status.im/chat/public/status-studio">JOIN THE CONVERSATION</a>
         </div>
     </div>
 </div>
@@ -99,7 +99,7 @@
                 <h3>Give Us Your Feedback</h3>
                 <p>Whether you’re an expert web3 developer or just starting out with Ethereum, give us your input and help shape the MVP. 
                 <p>
-                    <a href="#">Fill out the form</a>
+                    <a href="#">Help gather good data</a>
                     <span><a href="https://docs.google.com/forms/d/e/1FAIpQLScDYg6iwc7K1SLutyefjm2de58rPEmMlcmpzeIcYBH6ZQ2M2Q/viewform"><img src="../img/arrow_green.svg" /></a></span>
             </div>
             <div class="contribute">
@@ -107,7 +107,7 @@
                 <p>Sign up for an in-depth interview with one of our UX Researchers. Complete this sign up form to get started.</p> 
                 <p>
                     <a href="#">Volunteer for a User Research Interview</a>
-                    <span><a href="#"><img src="../img/arrow_green.svg" /></a></span>
+                    <span><a href="https://goo.gl/forms/nK5mu5RfY8fW17ok2"><img src="../img/arrow_green.svg" /></a></span>
             </div>
         </div>
     </div>
