@@ -7,7 +7,7 @@
         </p>
     </div>
     <div class="intro">
-        <h1>An Integrated Developer Environment and Education Platform</h1>
+        <h1>An Integrated Development Environment and Education Platform</h1>
         <p>Status Studio is designed to become a one-stop-shop for DApp development and education. We’ve listened to the needs of developers in the Ethereum ecosystem and we’re working to alleviate your pain points.</p>
         <div class="intro-buttons">
             <a class="button button--main" href="/docs/">JOIN THE CONVERSATION</a>
