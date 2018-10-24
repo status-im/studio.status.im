@@ -1,5 +1,11 @@
 <div class="home-cover">
      {{ partial('partial/header') }}
+     <div class="site-specific-menu">
+        <p>
+            <a class="site-name" href="/">studio</a>
+            <a class="specific-nav-link active" href="/"><span>About</span></a>
+        </p>
+    </div>
     <div class="intro">
         <h1>An Integrated Developer Environment and Education Platform</h1>
         <p>Status Studio is designed to become a one-stop-shop for DApp development and education. We’ve listened to the needs of developers in the Ethereum ecosystem and we’re working to alleviate your pain points.</p>
@@ -94,13 +100,19 @@
                 <p>Whether you’re an expert web3 developer or just starting out with Ethereum, give us your input and help shape the MVP. 
                 <p>
                     <a href="#">Fill out the form</a>
+                    <span><a href="https://docs.google.com/forms/d/e/1FAIpQLScDYg6iwc7K1SLutyefjm2de58rPEmMlcmpzeIcYBH6ZQ2M2Q/viewform"><img src="../img/arrow_green.svg" /></a></span>
+            </div>
+            <div class="contribute">
+                <h3>Volunteer for a User Research Interview</h3>
+                <p>Sign up for an in-depth interview with one of our UX Researchers. Complete this sign up form to get started.</p> 
+                <p>
+                    <a href="#">Volunteer for a User Research Interview</a>
                     <span><a href="#"><img src="../img/arrow_green.svg" /></a></span>
             </div>
         </div>
         <div class="volunteer-wrap">
-            <h2>Volunteer for a User Research Interview</h2>
-            <p>Sign up for an in-depth interview with one of our UX Researchers. Complete this sign up form to get started.</p>
-            <a href="#">SIGN UP FOR INTERVIEW</a>
-    </div>
+            <h2>Stay up to date on the latest Status Studio News</h2>
+            <p>Make sure you stay up to date on all the latest Studio news, interviews, blogs, and research!</p>
+        </div>
     </div>
 </div>
