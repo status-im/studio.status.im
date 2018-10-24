@@ -110,9 +110,5 @@
                     <span><a href="#"><img src="../img/arrow_green.svg" /></a></span>
             </div>
         </div>
-        <div class="volunteer-wrap">
-            <h2>Stay up to date on the latest Status Studio News</h2>
-            <p>Make sure you stay up to date on all the latest Studio news, interviews, blogs, and research!</p>
-        </div>
     </div>
 </div>
