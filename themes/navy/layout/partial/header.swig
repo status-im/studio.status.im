@@ -1,7 +1,7 @@
 <header id="general-menu">
     <div class="header-left">
         <div class="logo">
-            <a href="/"></a>
+            <a href="https://status.im"></a>
         </div>
         <nav>
             <ul>
