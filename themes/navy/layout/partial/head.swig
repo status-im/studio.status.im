@@ -32,6 +32,5 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
   <!-- RSS -->
   {{ feed_tag('atom.xml') }}
-  <meta property="og:image" content="/img/graphic-licensing.png" />
-  <meta property="og:title" content="Nimbus, a Light Client for Ethereum 2.0" />
+  <meta property="og:title" content="Studio, a one-stop-shop IDE and learning enviroment for developers" />
 </head>
