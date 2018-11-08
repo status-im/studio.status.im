@@ -1,3 +1,3 @@
-title: Nimbus
+title: Studio
 layout: index
 ---
