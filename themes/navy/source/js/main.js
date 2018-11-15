@@ -52,7 +52,7 @@ if(heroImage) {
 
 /* Popups */
 
-let community = document.querySelectorAll(".item--dropdown-community")[0]
+let community = document.querySelectorAll(".has-popup-community")[0]
 let projects = document.querySelectorAll(".item--dropdown-projects")[0]
 
 let popups = document.querySelectorAll(".popup-wrap")
