@@ -3,7 +3,6 @@ $note-info: hsl(200, 100%, 50%);
 $note-warn: hsl(0, 100%, 50%);
 
 #content {
-  @include clearfix();
   position: relative;
 }
 
@@ -12,7 +11,6 @@ $note-warn: hsl(0, 100%, 50%);
 }
 
 #content-inner-full {
-  @include clearfix();
   @media mq-normal {
     margin-left: 0;
   }
@@ -23,10 +21,6 @@ $note-warn: hsl(0, 100%, 50%);
     float: right;
     width: 100%;
   }
-}
-
-.article-inner {
-  @include clearfix();
 }
 
 .article {
@@ -41,8 +35,8 @@ $note-warn: hsl(0, 100%, 50%);
 #article-toc {
   display: none;
   float: right;
-  width: sidebar-width;
-  margin-right: sidebar-width * -1;
+  width: $sidebar-width;
+  margin-right: $sidebar-width * -1;
   opacity: 0.8;
   @media mq-normal {
     display: block;
@@ -59,223 +53,10 @@ $note-warn: hsl(0, 100%, 50%);
 }
 
 #article-toc-inner {
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   @extend .inner;
   overflow-x: hidden;
   overflow-y: auto;
-  width: sidebar-width;
+  width: $sidebar-width;
   .fixed & {
     position: fixed;
     top: 0;
@@ -284,209 +65,6 @@ $note-warn: hsl(0, 100%, 50%);
 }
 
 .toc-link {
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   @extend .sidebar-link;
 }
 
@@ -526,9 +104,12 @@ $note-warn: hsl(0, 100%, 50%);
   font-size: 25px;
   color: #ffffff;
   transition: 0.2s;
-  a&:hover {
+  a {
+    &:hover {
     color: color-link-hover;
+    }
   }
+
   .post & {
     float: none;
   }
@@ -702,7 +283,6 @@ $note-warn: hsl(0, 100%, 50%);
 }
 
 .article-footer {
-  @include clearfix();
   margin: 1em 0;
   border-top: 1px solid color-border;
   text-align: center;
@@ -716,7 +296,7 @@ $note-warn: hsl(0, 100%, 50%);
   }
 }
 
-$article-footer-link {
+article-footer-link {
   color: color-link;
   text-decoration: none;
   font-weight: bold;
@@ -735,38 +315,12 @@ $article-footer-link {
 }
 
 .article-footer-prev {
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  @extend $article-footer-link;
+  @extend article-footer-link;
   left: 0;
 }
 
 .article-footer-next {
-
-
-
-
-
-
-
-
-
-
-
-  @extend $article-footer-link;
+  @extend   article-footer-link;
   right: 0;
 }
 

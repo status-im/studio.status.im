@@ -24,12 +24,6 @@ input, button, select {
   border: 0;
 }
 
-html, body {
-  @media screen and  {
-    height: 100%;
-  }
-}
-
 body {
   background: color-navy;
   font-size: font-size;
@@ -39,6 +33,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
+  height: 100%;
 }
 
 .wrapper {
