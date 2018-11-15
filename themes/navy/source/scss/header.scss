@@ -33,7 +33,6 @@ $logo-size: 50px;
 }
 
 #logo {
-  @include hide-text();
   display: block;
   width: 56px;
   height: 56px;

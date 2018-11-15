@@ -11,3 +11,11 @@ $color-main-link: #fff;
 $color-link: #4564dc;
 $status: #e4e8fa;
 $color-link-hover: lighten($color-link, 10%);
+
+// Layout
+$max-width: 1200px;
+$gutter-width: 20px;
+$sidebar-width: 30%;
+$mobile-nav-width: 260px;
+$font-size: 16px;
+$line-height: 24px;

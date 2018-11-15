@@ -8,7 +8,7 @@ $lang-select-height: 40px;
   position: fixed;
   top: 0;
   width: mobile-nav-width;
-  left: mobile-nav-width * -1;
+  left: $mobile-nav-width * -1;
   height: 100%;
   background: color-navy;
   transition: $transition-duration;

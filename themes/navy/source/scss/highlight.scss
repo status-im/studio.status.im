@@ -47,7 +47,6 @@ pre {
     }
   }
   figcaption {
-    @include clearfix();
     margin: -5px 0 5px;
     font-size: 0.9em;
     color: color-gray;
