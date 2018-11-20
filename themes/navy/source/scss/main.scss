@@ -1,5 +1,8 @@
+@import "_variables";
 @import "colors";
+@import "fonts";
 @import "footer";
+@import "popup";
 @import "mobile_nav";
 @import "index";
 @import "header";
@@ -199,6 +202,78 @@ select[multiple]  {
 body {
   background: #ffffff;
 }
+
+.cards {
+  display: flex;
+  width: 100%;
+}
+
+.cards .card {
+  width: 100%;
+}
+
+.cards.cards--three {
+  flex-wrap: wrap;
+}
+
+.cards.cards--three .card {
+  width: 33.3%;
+}
+
+.cards.cards--three .card-inner {
+  margin: 12px;
+}
+
+.cards.cards--three .card:nth-child(3n+1) .card-inner { /* 1, 4, 7...*/
+  margin-left: 0
+}
+
+.cards.cards--three .card:nth-child(3n+3) .card-inner { /* 3, 6, 9...*/
+  margin-right: 0
+}
+
+.cards.cards--three .card:nth-child(1) .card-inner,
+.cards.cards--three .card:nth-child(2) .card-inner,
+.cards.cards--three .card:nth-child(3) .card-inner {
+  margin-top: 0;
+}
+
+.cards.cards--three .card:nth-last-child(3) .card-inner,
+.cards.cards--three .card:nth-last-child(2) .card-inner,
+.cards.cards--three .card:nth-last-child(1) .card-inner {
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  color: $colorBlue;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.6em;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
+h5 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: $colorGray;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+
 #general-menu {
   position: relative;
   display: flex;
@@ -456,7 +531,7 @@ body {
             padding: 16px 26px;
             color: #000;
             &:hover {
-              background: rgba($status, 0.2);
+              background: rgba($colorStatus, 0.2);
               opacity: 0.7;
             }
           }
@@ -582,7 +657,7 @@ body {
       justify-content: center;
       flex-wrap: wrap;
       li {
-        background: rgba($status, 0.1);
+        background: rgba($colorStatus, 0.1);
         margin-right: 20px;
         flex: 1;
         padding: 30px 30px 15px 30px;
@@ -673,7 +748,7 @@ body {
           display: flex;
           align-items: center;
           justify-content: center;
-          color: $status;
+          color: $colorStatus;
           margin-top: auto;
           transition: all 0.3s ease-in-out;
           &:hover {

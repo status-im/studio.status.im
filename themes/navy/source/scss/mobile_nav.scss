@@ -4,15 +4,19 @@ $toggle-line: 2px;
 $transition-duration: 0.4s;
 $lang-select-height: 40px;
 
+.mobile-menu-container {
+  display: none;
+}
+
 #mobile-nav {
   position: fixed;
   top: 0;
-  width: mobile-nav-width;
+  width: $mobile-nav-width;
   left: $mobile-nav-width * -1;
   height: 100%;
-  background: color-navy;
-  transition: $transition-duration;
-  font-family: font-title;
+  background: $colorNavy;
+  transition: transition-duration;
+  font-family: $FontTitle;
   .mobile-nav-on & {
     transform: translateX(100%);
   }
@@ -33,7 +37,7 @@ $lang-select-height: 40px;
   position: absolute;
   top: 0;
   bottom: 0;
-  left: gutter-width;
+  left: $gutter-width;
   width: $toggle-width;
   height: $toggle-height;
   margin: auto;
@@ -54,7 +58,7 @@ $lang-select-height: 40px;
   left: 0;
   width: 100%;
   height: $toggle-line;
-  transition: $transition-duration;
+  transition: transition-duration;
   transform-origin: 0;
   border-radius: $toggle-line;
   &:first-child {
@@ -64,7 +68,7 @@ $lang-select-height: 40px;
     }
   }
   &:nth-child(2) {
-    top: $toggle-height - $toggle-line * 0.5;
+    top: ($toggle-height - $toggle-line) * 0.5;
     .mobile-nav-on & {
       opacity: 0;
     }
@@ -89,7 +93,7 @@ $lang-select-height: 40px;
 }
 
 .mobile-nav-title {
-  color: color-link;
+  color: $colorLink;
   font-weight: bold;
   padding: 10px 15px;
   line-height: 1;
@@ -106,7 +110,7 @@ $lang-select-height: 40px;
   bottom: 0;
   left: 0;
   width: 100%;
-  background: color-navy;
+  background: $colorNavy;
   border-top: 1px solid #444;
 }
 
@@ -133,9 +137,9 @@ $lang-select-height: 40px;
 }
 
 #container {
-  transition: $transition-duration;
+  transition: transition-duration;
   height: 100%;
-
+  // overflow: auto
   -webkit-overflow-scrolling: touch;
   .mobile-nav-on & {
     transform: translateX(mobile-nav-width);
@@ -150,11 +154,11 @@ $lang-select-height: 40px;
   height: 100%;
   background: #000;
   opacity: 0;
-  transition: opacity $transition-duration, transform 0s $transition-duration;
+  transition: opacity transition-duration, transform 0s transition-duration;
   .mobile-nav-on & {
     width: 100%;
     opacity: 0.7;
     transform: translateX(-100%);
-    transition: opacity $transition-duration;
+    transition: opacity transition-duration;
   }
 }

@@ -4,8 +4,26 @@
 
 $(document).ready(function () {
   var months = {'01':'Jan', '02':'Feb', '03':'Mar', '04':'Apr', '05':'May', '06':'Jun', '07':'Jul', '08':'Aug', '09':'Sep', '10':'Oct', '11':'Nov', '12':'Dec'};
-  let url = 'https://our-status.ghost.io/ghost/api/v0.1/posts/?limit=3&formats=plaintext&client_id=ghost-frontend&client_secret=1c5590b47eb4';
+  let url = 'https://our.status.im/ghost/api/v0.1/posts/?order=published_at%20desc&limit=2&formats=plaintext&client_id=ghost-frontend&client_secret=2b055fcd57ba';
   var urlBase = [location.protocol, '//', location.host, location.pathname].join('');
+
+  var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+
+  $(window).on('resize', function(event) {
+      w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+      setMenu(w);
+  });
+
+  function setMenu(w) {
+      if (w < 1199) {
+        console.log("mobile")
+          $('#general-menu nav ul').appendTo('#general-menu-mobile nav');
+      } else {
+          $('#general-menu-mobile nav ul').appendTo('#general-menu nav');
+      };
+  }
+
+  setMenu(w);
 
   $.ajax({
     type: "get",
@@ -49,27 +67,35 @@ if(heroImage) {
   }, 200)
 }
 
-
 /* Popups */
 
 let community = document.querySelectorAll(".has-popup-community")[0]
-let projects = document.querySelectorAll(".item--dropdown-projects")[0]
+let projects = document.querySelectorAll(".has-popup-projects")[0]
+let mobileMenu = document.querySelectorAll(".mobile-menu-trigger")[0]
 
-let popups = document.querySelectorAll(".popup-wrap")
+let popups = document.querySelectorAll('.popup-wrap')
 let overlays = document.querySelectorAll(".popup-overlay")
-let closeButtons = document.querySelectorAll(".popup__button--close")
+let popupMenu = document.querySelectorAll("#general-menu-mobile")[0]
+
+let closeButtons = document.querySelectorAll(".popup__button--close,#general-menu-mobile .close")
 
 let activePopup = null;
 let activeOverlay = null;
 
 community.addEventListener('click', function(event){
-    showPopup(popups[0])
-    event.preventDefault()
+  showPopup(popups[0])
+  event.preventDefault()
+
 })
 
 projects.addEventListener('click', function(event){
     showPopup(popups[1])
     event.preventDefault()
+})
+
+mobileMenu.addEventListener('click', function(event) {
+  showPopup(popupMenu)
+  event.preventDefault()
 })
 
 closeButtons.forEach((button) => {
@@ -86,8 +112,13 @@ function showPopup(whichPopup) {
 }
 
 function closeActivePopup() {
+  console.log("test")
   removeClassFromElement(activePopup, "popup--shown");
   activePopup = null;
+}
+
+function closeMenu() {
+  removeClassFromElement(activePopup, "")
 }
 
 /* Code highlighting */
@@ -119,7 +150,7 @@ function highlight() {
 })
 
 /* Mobile Nav */
-
+/*
 let moreLink = document.querySelectorAll(".item--more")[0]
 
 let nav = document.querySelectorAll(".mobile-nav-wrap")[0]
@@ -143,6 +174,7 @@ function showNav() {
 function closeNav() {
   removeClassFromElement(nav, "mobile-nav--shown");
 }
+*/
 
 /*--- Utils ---*/
 function addClassToElement(element, className) {
