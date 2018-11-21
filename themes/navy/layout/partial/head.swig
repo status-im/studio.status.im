@@ -25,7 +25,7 @@
   <link rel="apple-touch-icon" href="/img/apple-touch-icon-1024.png?v=0.0.5">
   <!-- CSS -->
   <!-- build:css build/css/navy.css -->
-  {{ css('css/navy') }}
+  {{ css('css/main.min') }}
   <!-- endbuild -->
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">

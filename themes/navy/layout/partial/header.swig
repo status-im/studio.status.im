@@ -1,7 +1,7 @@
 <header id="general-menu">
     <div class="header-left">
         <div class="logo">
-            <a href="https://status.im"></a>
+            <a href="https://status.im/"></a>
         </div>
         <nav>
             <ul>
@@ -14,7 +14,7 @@
                 <li>
                     <a href="https://status.im/docs/" class="main-link">Docs</a>
                 </li>
-                <li class="has-popup has-popup-community">
+                <li class="has-popup has-popup-projects">
                     <a href="#" class="main-link">Projects</a>
                     <svg width="11" height="7" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg"> <g opacity="0.4"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5.23198 3.83006L1.70264 0.292429C1.31888 -0.0922324 0.683447 -0.095995 0.293839 0.294529C-0.0984862 0.687776 -0.0967079 1.31728 0.291744 1.70664L4.52863 5.95348C4.72016 6.14547 4.97439 6.24257 5.22946 6.24313C5.48789 6.2456 5.74145 6.14782 5.93533 5.95348L10.1722 1.70664C10.556 1.32198 10.5597 0.685054 10.1701 0.294529C9.7778 -0.0987176 9.14977 -0.0969352 8.76132 0.292429L5.23198 3.83006Z" fill="#6E777E"/> </g> </svg>
                 </li>
@@ -51,45 +51,125 @@
     </div>
 </div>
 <div id="general-menu-backdrop"></div>
-<div id="popup-community" class="general-menu-popup">
-    <div class="inner">
-        <h3>Community</h3>
-        <ul class="features">
-            <li>
-                <svg width="35" height="26" viewBox="0 0 35 26" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M0 20.5C0 17.4624 2.46243 15 5.5 15H18.5C21.5376 15 24 17.4624 24 20.5C24 23.5376 21.5376 26 18.5 26H5.5C2.46243 26 0 23.5376 0 20.5Z" fill="#4360DF"/> <mask id="path-2-outside-1" maskUnits="userSpaceOnUse" x="16" y="6" width="19" height="19" fill="black"> <rect fill="white" x="16" y="6" width="19" height="19"/> <path fill-rule="evenodd" clip-rule="evenodd" d="M24 20.5C24 21.3284 24.6716 22 25.5 22C26.3284 22 27 21.3284 27 20.5V17H30.5C31.3284 17 32 16.3284 32 15.5C32 14.6716 31.3284 14 30.5 14H27V10.5C27 9.67157 26.3284 9 25.5 9C24.6716 9 24 9.67157 24 10.5V14H20.5C19.6716 14 19 14.6716 19 15.5C19 16.3284 19.6716 17 20.5 17H24V20.5Z"/> </mask> <path fill-rule="evenodd" clip-rule="evenodd" d="M24 20.5C24 21.3284 24.6716 22 25.5 22C26.3284 22 27 21.3284 27 20.5V17H30.5C31.3284 17 32 16.3284 32 15.5C32 14.6716 31.3284 14 30.5 14H27V10.5C27 9.67157 26.3284 9 25.5 9C24.6716 9 24 9.67157 24 10.5V14H20.5C19.6716 14 19 14.6716 19 15.5C19 16.3284 19.6716 17 20.5 17H24V20.5Z" fill="#A8B6F0"/> <path d="M27 17V14H24V17H27ZM27 14H24V17H27V14ZM24 14V17H27V14H24ZM24 17H27V14H24V17ZM25.5 19C26.3284 19 27 19.6716 27 20.5H21C21 22.9853 23.0147 25 25.5 25V19ZM24 20.5C24 19.6716 24.6716 19 25.5 19V25C27.9853 25 30 22.9853 30 20.5H24ZM24 17V20.5H30V17H24ZM30.5 14H27V20H30.5V14ZM29 15.5C29 14.6716 29.6716 14 30.5 14V20C32.9853 20 35 17.9853 35 15.5H29ZM30.5 17C29.6716 17 29 16.3284 29 15.5H35C35 13.0147 32.9853 11 30.5 11V17ZM27 17H30.5V11H27V17ZM24 10.5V14H30V10.5H24ZM25.5 12C24.6716 12 24 11.3284 24 10.5H30C30 8.01472 27.9853 6 25.5 6V12ZM27 10.5C27 11.3284 26.3284 12 25.5 12V6C23.0147 6 21 8.01472 21 10.5H27ZM27 14V10.5H21V14H27ZM20.5 17H24V11H20.5V17ZM22 15.5C22 16.3284 21.3284 17 20.5 17V11C18.0147 11 16 13.0147 16 15.5H22ZM20.5 14C21.3284 14 22 14.6716 22 15.5H16C16 17.9853 18.0147 20 20.5 20V14ZM24 14H20.5V20H24V14ZM27 20.5V17H21V20.5H27Z" fill="#ECEFFC" mask="url(#path-2-outside-1)"/> <circle cx="13" cy="5" r="5" fill="#4360DF"/> </svg>
-                <h4>Join the chat in Status</h4>
-                <p>Whisper sweet, encrypted nothings on a distributed network that no-one owns.</p>
-            </li>
-            <li>
-                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M24.3333 8C28.5675 8 32 11.377 32 15.5428V28.7428C32 29.2361 31.7068 29.6838 31.2504 29.8876C30.7937 30.0914 30.258 30.0138 29.8809 29.6889L26.2151 26.5332C25.5163 25.9316 24.6191 25.6 23.6907 25.6H15.3889C11.8603 25.6 9 22.7858 9 19.3143V14.2857C9 10.8141 11.8603 8 15.3889 8H24.3333Z" fill="#A8B6F0"/> <path d="M7.66667 0C3.43247 0 0 3.37703 0 7.54285V20.7428C0 21.2361 0.29324 21.6838 0.749634 21.8876C1.20634 22.0914 1.74197 22.0138 2.11913 21.6889L5.78494 18.5332C6.48372 17.9316 7.38091 17.6 8.3093 17.6H16.6111C20.1397 17.6 23 14.7858 23 11.3143V6.28571C23 2.81414 20.1397 0 16.6111 0H7.66667Z" fill="#4360DF"/> <circle cx="15" cy="9" r="2" fill="white"/> <circle cx="8" cy="9" r="2" fill="white"/> </svg>
-                <h4>Join the Discussion</h4>
-                <p>Join longer discussions, work in progress, and our research here.</p>
-            </li>
-            <li>
-                <svg width="33" height="31" viewBox="0 0 33 31" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M16.4495 0C7.36697 0 0 7.11346 0 15.8835C0 22.8995 4.74312 28.8436 11.2018 30.9874C12.0092 31.0848 12.3119 30.5976 12.3119 30.2078C12.3119 29.8181 12.3119 28.8436 12.3119 27.4794C7.77064 28.4538 6.76147 25.3356 6.76147 25.3356C6.05505 23.4842 4.94495 22.9969 4.94495 22.9969C3.43119 22.0225 5.04587 22.0225 5.04587 22.0225C6.66055 22.1199 7.56881 23.679 7.56881 23.679C9.08257 26.1152 11.4037 25.4331 12.3119 25.0433C12.4128 23.9714 12.9174 23.2893 13.3211 22.8995C9.68807 22.5097 5.85321 21.1455 5.85321 15.0065C5.85321 13.2525 6.45872 11.8882 7.56881 10.7189C7.46789 10.4266 6.86239 8.77002 7.77064 6.62624C7.77064 6.62624 9.18349 6.23646 12.3119 8.28279C13.6239 7.89302 15.0367 7.79557 16.4495 7.79557C17.8624 7.79557 19.2752 7.99046 20.5872 8.28279C23.7156 6.23646 25.1284 6.62624 25.1284 6.62624C26.0367 8.77002 25.4312 10.4266 25.3303 10.8164C26.3395 11.8882 27.0459 13.3499 27.0459 15.1039C27.0459 21.2429 23.211 22.5097 19.578 22.8995C20.1835 23.3867 20.6881 24.3612 20.6881 25.8228C20.6881 27.9666 20.6881 29.6232 20.6881 30.2078C20.6881 30.5976 20.9908 31.0848 21.7982 30.9874C28.3578 28.8436 33 22.8995 33 15.8835C32.8991 7.11346 25.5321 0 16.4495 0Z" fill="#4360DF"/> </svg>
-                <h4>Contribute to our Repos</h4>
-                <p>Help us #buidl the future by getting involved in the most active code base in Ethereum.</p>
-            </li>
-        </ul>
-        <h5>Find out more</h5>
-        <ul class="more">
-            <li>
-                <h4>Read our Blog</h4>
-                <p>Status is a community of people all over the world connected by a set of</p>
-                <a href="https://our.status.im/">Learn more and apply <svg width="7" height="11" viewBox="0 0 7 11" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M4.50752 5.75572L0.978261 9.29336C0.594509 9.67802 0.590756 10.3149 0.980356 10.7055C1.37267 11.0987 2.00068 11.0969 2.38913 10.7076L6.62591 6.46073C6.81745 6.26874 6.91432 6.01391 6.91487 5.75824C6.91734 5.4992 6.81979 5.24505 6.62591 5.05071L2.38913 0.803866C2.00538 0.419204 1.36996 0.415442 0.980356 0.805966C0.588039 1.19921 0.589818 1.82872 0.978261 2.21808L4.50752 5.75572Z" fill="#4360DF"/> </svg> </a>
-            </li>
-            <li>
-                <h4>Life at Status</h4>
-                <p>Explore open positions. Status is a community of people all over the world connected by a set </p>
-                <a href="https://status.im/contribute/">Learn more and apply <svg width="7" height="11" viewBox="0 0 7 11" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M4.50752 5.75572L0.978261 9.29336C0.594509 9.67802 0.590756 10.3149 0.980356 10.7055C1.37267 11.0987 2.00068 11.0969 2.38913 10.7076L6.62591 6.46073C6.81745 6.26874 6.91432 6.01391 6.91487 5.75824C6.91734 5.4992 6.81979 5.24505 6.62591 5.05071L2.38913 0.803866C2.00538 0.419204 1.36996 0.415442 0.980356 0.805966C0.588039 1.19921 0.589818 1.82872 0.978261 2.21808L4.50752 5.75572Z" fill="#4360DF"/> </svg> </a>
-            </li>
-            <li>
-                <h4>Follow us on Twitter</h4>
-                <p>Status is a community of people all over the world connected by a set of</p>
-                <a href="https://twitter.com/ethstatus">Learn more and apply <svg width="7" height="11" viewBox="0 0 7 11" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M4.50752 5.75572L0.978261 9.29336C0.594509 9.67802 0.590756 10.3149 0.980356 10.7055C1.37267 11.0987 2.00068 11.0969 2.38913 10.7076L6.62591 6.46073C6.81745 6.26874 6.91432 6.01391 6.91487 5.75824C6.91734 5.4992 6.81979 5.24505 6.62591 5.05071L2.38913 0.803866C2.00538 0.419204 1.36996 0.415442 0.980356 0.805966C0.588039 1.19921 0.589818 1.82872 0.978261 2.21808L4.50752 5.75572Z" fill="#4360DF"/> </svg> </a>
-            </li>
-        </ul>
-        <a href="#" class="close"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M6 4.57404L1.72275 0.296796C1.32616 -0.0997918 0.689941 -0.0975927 0.296174 0.296174C-0.100338 0.692686 -0.0973145 1.32864 0.296796 1.72275L4.57404 6L0.296796 10.2772C-0.0997918 10.6738 -0.0975927 11.3101 0.296174 11.7038C0.692686 12.1003 1.32864 12.0973 1.72275 11.7032L6 7.42596L10.2772 11.7032C10.6738 12.0998 11.3101 12.0976 11.7038 11.7038C12.1003 11.3073 12.0973 10.6714 11.7032 10.2772L7.42596 6L11.7032 1.72275C12.0998 1.32616 12.0976 0.689941 11.7038 0.296174C11.3073 -0.100338 10.6714 -0.0973145 10.2772 0.296796L6 4.57404Z" fill="#6E777E"/> </svg> </a>
+<div class="popup-wrap popup-wrap--community">
+    <div class="popup popup--community">
+        <a class="popup__button popup__button--close"></a>
+        <h3 class="popup__title">Community</h3>
+        <div class="popup__inner">
+            <div class="cards cards--three cards--three--even cards--community cards--community--light">
+                <div class="card">
+                    <a href="https://get.status.im/chat/public/status" class="card-inner">
+                        <div class="community-icon community-icon--join"></div>
+                        <h4>Join the chat in Status</h4>
+                        <p class="secondary-text">Whisper sweet, encrypted nothings on a distributed network that no-one owns.</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="https://discuss.status.im/" class="card-inner">
+                        <div class="community-icon community-icon--discussion"></div>
+                        <h4>Join the Discussion</h4>
+                        <p class="secondary-text">Join longer discussions, work in progress, and our research here.</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="https://github.com/status-im/" class="card-inner">
+                        <div class="community-icon community-icon--contrubute"></div>
+                        <h4>Contribute to our Repos</h4>
+                        <p class="secondary-text">Help us #buidl the future by getting involved in the most active code base in Ethereum.</p>
+                    </a>
+                </div>
+            </div>
+            <h5>Find Out More</h5>
+            <div class="cards cards-community-more cards--three cards--three--even">
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-content">
+                            <div class="latest-posts"></div>
+                        </div>
+                        <div class="card-community-more__link"><a href="https://our.status.im/" class="link-arrow">Learn more</a></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-content">
+                            <h4>Life at Status</h4>
+                            <p class="secondary-text">What's it like to live the decentralized lifestyle? Find out here.</p>
+                        </div>
+                        <div class="card-community-more__link"><a href={{url_for_lang('contribute')}} class="link-arrow">Learn more</a></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-content">
+                            <h4>Follow us on Twitter</h4>
+                            <p class="secondary-text">Join the conversation on our social channels to learn more.</p>
+                        </div>
+                        <div class="card-community-more__link"><a href="https://twitter.com/ethstatus/" class="link-arrow">Learn more</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="general-popup-backdrop"></div>
+    <div class="popup-overlay"></div>
 </div>
+
+<div class="popup-wrap popup-wrap--projects">
+    <div class="popup popup--projects">
+        <a class="popup__button popup__button--close"></a>
+        <h3 class="popup__title">Projects</h3>
+        <div class="popup__inner">
+            <h5>Help us #buidl</h5>
+            <div class="cards cards-community-more cards--three cards--three--even">
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-content">
+                            <h4>Embark</h4>
+                            <p class="secondary-text">Embark is a simple and easy to use development framework that enables you to build and deploy your own decentralized applications smoothly.</p>
+                        </div>
+                        <div class="card-community-more__link"><a href="https://embark.status.im/" class="link-arrow">Learn more</a></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-content">
+                            <h4>Nimbus</h4>
+                            <p class="secondary-text">A research project and light client for Ethereum 2.0 designed to perform well on embedded systems and resource-restricted hardware.</p>
+                        </div>
+                        <div class="card-community-more__link"><a href="https://nimbus.status.im" class="link-arrow">Learn more</a></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-content">
+                            <h4>Status Studio</h4>
+                            <p class="secondary-text">Studio is an integrated developer environment and educational platform designed to be a one-stop-shop for ÐApp development.</p>
+                        </div>
+                        <div class="card-community-more__link"><a href="https://studio.status.im" class="link-arrow">Learn more</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="separator"></div>
+            <h5>Tools for Everyone</h5>
+            <div class="cards cards-community-more cards--three cards--three--even">
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-content">
+                            <h4>Incubate</h4>
+                            <p class="secondary-text">Incubate supports open source, early stage startups with funding, technical mentorship, legal and regulatory compliance and much more.</p>
+                        </div>
+                        <div class="card-community-more__link"><a href="https://incubate.status.im/" class="link-arrow">Learn more</a></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-content">
+                            <h4>Status Hardwallet</h4>
+                            <p class="secondary-text">A hardware wallet in the form of a card with a safe, contactless transaction experience</p>
+                        </div>
+                        <div class="card-community-more__link"><a href="https://hardwallet.status.im/" class="link-arrow">Learn more</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup-overlay"></div>
