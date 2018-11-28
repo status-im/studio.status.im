@@ -4,28 +4,7 @@
             <a href="https://status.im/"></a>
         </div>
         <nav>
-            <ul>
-                <li>
-                    <a href="https://status.im/get/" class="main-link">App</a>
-                </li>
-                <li>
-                    <a href="https://our.status.im/" class="main-link">Blog</a>
-                </li>
-                <li>
-                    <a href="https://status.im/docs/" class="main-link">Docs</a>
-                </li>
-                <li class="has-popup has-popup-projects">
-                    <a href="#" class="main-link">Projects</a>
-                    <svg width="11" height="7" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg"> <g opacity="0.4"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5.23198 3.83006L1.70264 0.292429C1.31888 -0.0922324 0.683447 -0.095995 0.293839 0.294529C-0.0984862 0.687776 -0.0967079 1.31728 0.291744 1.70664L4.52863 5.95348C4.72016 6.14547 4.97439 6.24257 5.22946 6.24313C5.48789 6.2456 5.74145 6.14782 5.93533 5.95348L10.1722 1.70664C10.556 1.32198 10.5597 0.685054 10.1701 0.294529C9.7778 -0.0987176 9.14977 -0.0969352 8.76132 0.292429L5.23198 3.83006Z" fill="#6E777E"/> </g> </svg>
-                </li>
-                <li>
-                    <a href="https://status.im/contribute/" class="main-link">Contribute</a>
-                </li>
-                <li class="has-popup has-popup-community">
-                    <a href="#">Community</a>
-                    <svg width="11" height="7" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg"> <g opacity="0.4"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5.23198 3.83006L1.70264 0.292429C1.31888 -0.0922324 0.683447 -0.095995 0.293839 0.294529C-0.0984862 0.687776 -0.0967079 1.31728 0.291744 1.70664L4.52863 5.95348C4.72016 6.14547 4.97439 6.24257 5.22946 6.24313C5.48789 6.2456 5.74145 6.14782 5.93533 5.95348L10.1722 1.70664C10.556 1.32198 10.5597 0.685054 10.1701 0.294529C9.7778 -0.0987176 9.14977 -0.0969352 8.76132 0.292429L5.23198 3.83006Z" fill="#6E777E"/> </g> </svg>
-                </li>
-            </ul>
+            {{ partial('partial/shared-partials/partials/header-nav') }}
         </nav>
     </div>
     <a href="#" class="mobile-menu-trigger">

@@ -10,7 +10,8 @@
     "build": "gulp run && hexo generate",
     "eslint": "eslint .",
     "deploy": "hexo deploy",
-    "serve": "gulp run && hexo server"
+    "serve": "gulp run && hexo server",
+    "update-submodules": "git submodule update --recursive --remote"
   },
   "dependencies": {
     "cheerio": "^0.20.0",
